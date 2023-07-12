@@ -16,5 +16,14 @@ Kisisel kullanimda yapacagimiz tum islemler kendi bilgisayarimizdaki local repos
 GitHub'daki remote repostory arasindaki senkronizasyondan ibarettir.
 
 - Local'de repo olusturma git init
--Klasorumuzdeki tum dosyalari local'deki repoya yuklemek icin git add .
+-Klasorumuzdeki tum dosyalari local'deki repoya yuklemek icin; git add .
+- Local repoda versiyon olusturma; git commit -m "versiyon ismi"
+-Branch olusturmak icin; git branch -M main
+-git remote add origin "repostory linki"
+-git push -u origin main
 
+==>Local repo da yaptigimiz degisiklikleri GitHub'daki repo ile senkronizasyon
+
+-Klasorumuzdeki tum dosyalari localdaki repoya yuklemek icin; git add .
+-Local repoda versiyon olusturma; gir commit -m "versiyon ismi"
+-Remote repo ile local repo'yu senkronize etme; git push
