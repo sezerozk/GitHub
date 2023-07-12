@@ -1,0 +1,20 @@
+GitHub Kullanimi==>
+1- Kisisel Kullanim:
+GitHub, Git adli bir versioyn kontrol sistemini barindiran bulut tabanli bir hizmettir.
+Bilgisayara Git kurulmasi worunlu.
+
+Git: Bireysel kucuk projelerden cok buyuk projelere kadar projeleri hizli ve verimli bir
+sekilde yonetmek icin tasarlanmis ucretsiz, acika kaynakli ve dagitilmis bir surum kontrol sistemidir.
+
+"First developed in 2005"
+"One thing that really sets Git apart is its branching model"
+"Git is a high qualty version control system"
+Git bilgisayardaki klasor yapisi uzerinden calisir.
+Git komutlarini CMD(Command Prompt) ile veya iDE de bulunan terminal yapisi ile kullanilabilir.
+==>BILGISAYARIMIZDAKI BIR DOSYAYI ILK DEFA GIT4E RANITIP? GITHUB4DA OLUSTURACAGIMIZ BIR REPO'YA YUKLEME:
+Kisisel kullanimda yapacagimiz tum islemler kendi bilgisayarimizdaki local repostory ile
+GitHub'daki remote repostory arasindaki senkronizasyondan ibarettir.
+
+- Local'de repo olusturma git init
+-Klasorumuzdeki tum dosyalari local'deki repoya yuklemek icin git add .
+
