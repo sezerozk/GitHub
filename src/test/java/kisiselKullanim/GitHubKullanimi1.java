@@ -7,5 +7,6 @@ public class GitHubKullanimi1 {
         System.out.println("GitHub");
 
 
+        System.out.println("Sezer branch'inde ortak classta degisiklik yaptim");
     }
 }
