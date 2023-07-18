@@ -11,7 +11,7 @@ sekilde yonetmek icin tasarlanmis ucretsiz, acika kaynakli ve dagitilmis bir sur
 "Git is a high qualty version control system"
 Git bilgisayardaki klasor yapisi uzerinden calisir.
 Git komutlarini CMD(Command Prompt) ile veya iDE de bulunan terminal yapisi ile kullanilabilir.
-==>BILGISAYARIMIZDAKI BIR DOSYAYI ILK DEFA GIT4E RANITIP? GITHUB4DA OLUSTURACAGIMIZ BIR REPO'YA YUKLEME:
+==>BILGISAYARIMIZDAKI BIR DOSYAYI ILK DEFA GIT'E tANITIP? GITHUB4DA OLUSTURACAGIMIZ BIR REPO'YA YUKLEME:
 Kisisel kullanimda yapacagimiz tum islemler kendi bilgisayarimizdaki local repostory ile
 GitHub'daki remote repostory arasindaki senkronizasyondan ibarettir.
 
@@ -20,7 +20,7 @@ GitHub'daki remote repostory arasindaki senkronizasyondan ibarettir.
 - Local repoda versiyon olusturma; git commit -m "versiyon ismi"
 -Branch olusturmak icin; git branch -M main
 -git remote add origin "repostory linki"
--git push -u origin main
+-git push
 
 ==>Local repo da yaptigimiz degisiklikleri GitHub'daki repo ile senkronizasyon
 
@@ -30,7 +30,7 @@ GitHub'daki remote repostory arasindaki senkronizasyondan ibarettir.
 
 ==>GitHub'da erisim yetkimiz olan bir repo'yu bilgisayara indirme
 -Repoyu indirecegimiz ve seknronize edecegimiz bir klasor olusturma
--KOmut ekrani ile git init komutu sayesinde kalsoru Git'e tanitalim
+-Komut ekrani ile git init komutu sayesinde kalsoru Git'e tanitalim
 -Remote repo'nun linkini kopyalayalim
 -Indrimek icin git pull "remote repo'nun linki"
 **Bir kere senkronizasyon yapildiktan sonra ayni repo'dan yapilacak sonraki indirmelerde sadece
@@ -45,3 +45,33 @@ Bu islemden sonraki senkronizasyonlar icin;
 -git push
 komutlari yeterli olacaktir.
 2-Takim Calismasinda GitHub Kullanimi
+Sifirdan baslayalim=> Ilk olarak GitHub da yer alan bir projeyi indirelim
+Bunun IntelliJ deki dogrudan kopyalama ozelligini ya da git sistemini kullanarak yapabiliriz
+(git init
+git pull "remote repo'nun linki")
+Daha sonra artik bilgisayarimizda olan proje ile remote repostory'deki dosyayi ilintilemek icin=>
+Eger IntelliJ ile indirdiyesk git init ile baslamaliyiz fakat daha once git uzerinden indirdiysek
+git init komutunu daha once kullandigimiz icin tekrar etmemize gerek yok.
+Branch olusturmamiz gerek=> git branch -M main
+git remote add origin "remote repo linki"
+git push -u origin main
+Bunlari yaptiktan sonra yereldeki repo ile remote repo ilintilenmis oldu. Simdi grup calismasi
+oldugu icin kendime bir branch olusturmaliyim.
+git branch Sezer(Genelde islemi yapan kisi kendi ismi ile branch olusturuyor)
+Bu islemden sonra git branch komutu ile branch in olusup olusmadigi ya da o sirada hangi branch'te
+calistigimizi kontrol edebiliriz. Yaninda yildiz bulunan branch o sirada islem yaptigimiz branch'i
+gosteriyor.
+(PS C:\Users\33620\IdeaProjects\GitHub> git branch
+   Sezer
+ * main)
+ Main branch'ten Sezer branch'ine gecebilmek icin
+ git ceckout Sezer komutunu kullaniyoruz.
+ Bu islemden sonra artik kendi branc'imizde kad yaziyor olacagiz.
+Kodlarimizi yazdiktan sonra yaptigimiz degisiklikleri artik projenin orjinal haline eklemek istedigimiz
+zaman==>
+Yaptigimiz degisiklikleri kaydetmeliyiz ya da GitHub tabiri ile commit etmeliyiz.Bunun icin;
+git add .
+git commit -m "versiyona vermek istedigimiz isim"
+
+
+
