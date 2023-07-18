@@ -72,6 +72,17 @@ zaman==>
 Yaptigimiz degisiklikleri kaydetmeliyiz ya da GitHub tabiri ile commit etmeliyiz.Bunun icin;
 git add .
 git commit -m "versiyona vermek istedigimiz isim"
+Daha sonra main branch'ine geciyoruz. Gectigimizde kendi branch'imizde yaptigimiz degisikliklerin
+main branch'te olmadigini dosyalari inceledigimizde gorebiliriz.
+Eger kendi branch'imizde yaptigimiz gelistirmeleri main e tasimak istiyorsak;
+main deyken
+-git merge Sezer
+komutunu kullaniyoruz.
+Unutmamak gerekir ki bu yapilan islemleri hala localde yapiyoruz. Henuz cloud da bir islem yapmadik.
+Bu sekilde calistigimizda calisirken kodun orjinal halini saklamis oluyoruz ve bir aksilik olmasi durumunda
+kodun orjinali elimizde olmus oluyor.
+Denene*****
+
 
 
 
