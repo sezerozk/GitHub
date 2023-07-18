@@ -27,3 +27,21 @@ GitHub'daki remote repostory arasindaki senkronizasyondan ibarettir.
 -Klasorumuzdeki tum dosyalari localdaki repoya yuklemek icin; git add .
 -Local repoda versiyon olusturma; gir commit -m "versiyon ismi"
 -Remote repo ile local repo'yu senkronize etme; git push
+
+==>GitHub'da erisim yetkimiz olan bir repo'yu bilgisayara indirme
+-Repoyu indirecegimiz ve seknronize edecegimiz bir klasor olusturma
+-KOmut ekrani ile git init komutu sayesinde kalsoru Git'e tanitalim
+-Remote repo'nun linkini kopyalayalim
+-Indrimek icin git pull "remote repo'nun linki"
+**Bir kere senkronizasyon yapildiktan sonra ayni repo'dan yapilacak sonraki indirmelerde sadece
+git pull .. komutunun kullanilmasi yeterli olacaktir.
+
+==>GitHub'dan indirilen dosya uzerinde yapilan degisikliklerin remote repo ile senkronize edilmesi
+-Burada ilk ornekteki islemler yapilmaksizin dogrudan dosyalar indirildigi icin ilk ornekteli
+islemlerin git init komutu haricinde yapilmasi gerekli.
+Bu islemden sonraki senkronizasyonlar icin;
+-git add .
+-git commit -m "versiyon aciklamasi"
+-git push
+komutlari yeterli olacaktir.
+2-Takim Calismasinda GitHub Kullanimi
