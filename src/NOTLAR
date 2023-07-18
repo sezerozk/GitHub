@@ -81,6 +81,13 @@ komutunu kullaniyoruz.
 Unutmamak gerekir ki bu yapilan islemleri hala localde yapiyoruz. Henuz cloud da bir islem yapmadik.
 Bu sekilde calistigimizda calisirken kodun orjinal halini saklamis oluyoruz ve bir aksilik olmasi durumunda
 kodun orjinali elimizde olmus oluyor.
+Dikkat edilmesi gereken bir nokta var ki ister main branch te ister Sezer branch'inde olsun yaptigimiz degisikligi
+kaydetmek istiyorsak degisiklikleri eklemeli ve bir commit olusturmak zorundayiz
+git add .
+git commit -m "versiyon adi"
+deneme
+
+
 
 
 
