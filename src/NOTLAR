@@ -85,8 +85,7 @@ Dikkat edilmesi gereken bir nokta var ki ister main branch te ister Sezer branch
 kaydetmek istiyorsak degisiklikleri eklemeli ve bir commit olusturmak zorundayiz
 git add .
 git commit -m "versiyon adi"
-deneme
-deneme
+
 
 
 
