@@ -5,5 +5,6 @@ public class deneme2 {
         System.out.println("sdfs");
         System.out.println("mlknxcn");
         System.out.println("bakalim");
+        System.out.println("");
     }
 }
