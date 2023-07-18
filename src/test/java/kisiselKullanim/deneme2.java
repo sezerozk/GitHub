@@ -5,5 +5,6 @@ public class deneme2 {
         System.out.println("sdfs");
         System.out.println("mlknxcn");
         System.out.println("degisiklik");
+        System.out.println("kendi branch imde yaptigim ekleme");
     }
 }
